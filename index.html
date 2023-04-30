@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webly Ecommerce</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Webly Ecommerce</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-bs-auto-close="true">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/" data-bs-dismiss="collapse">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html" data-bs-dismiss="collapse">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-dismiss="collapse">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-dismiss="collapse">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-dismiss="collapse">Categories</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/home.jpg" class="d-block w-100" alt="Product 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/home2.jpg" class="d-block w-100" alt="Product 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/home.jpg" class="d-block w-100" alt="Product 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Featured Products -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12 text-center">
+                <h2>Featured Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/home.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <a href="product.html">
+                            <h5 class="card-title">Product 1</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="product.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/home2.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <a href="product.html">
+                            <h5 class="card-title">Product 2</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dotempor
+                            incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <a href="product.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/home.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <a href="product.html">
+                            <h5 class="card-title">Product 3</h5>
+                        </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="product.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Promotions and Discounts -->
+    <div class="promo-section">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-12 text-center">
+                    <h2>Promotions and Discounts</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/home.jpg" class="card-img-top" alt="Promotion Image">
+                        <div class="card-body">
+                            <a href="shop.html">
+                                <h5 class="card-title">Get 10% off on all products</h5>
+                            </a>
+                            <p class="card-text">Use the coupon code WEBLY10 at checkout to avail the discount.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/home2.jpg" class="card-img-top" alt="Promotion Image">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Free Shipping on all orders above $50</h5>
+                            <p class="card-text">No coupon code required. The discount will be automatically applied at
+                                checkout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="footer mt-auto py-5" style="background-color: #F8F9FA;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Categories</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Email Us</a></li>
+                <li><a href="#">Call Us</a></li>
+                <li><a href="#">Visit Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <hr style="border-top: 1px solid #ddd;">
+              <p style="margin-top: 10px;">&copy; 2023 Webly Ecommerce. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <!-- Bootstrap 5 scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
