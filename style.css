@@ -1,0 +1,30 @@
+/* order confirmation */
+body {
+    background-color: #f8f9fa;
+}
+
+.confirmation-message {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.order-number {
+    margin-top: 2rem;
+}
+
+.order-details {
+    margin-top: 2rem;
+}
+
+.delivery-date {
+    margin-top: 2rem;
+}
+
+.customer-service {
+    margin-top: 2rem;
+}
+
+.customer-service p {
+    margin-bottom: 0;
+}
+/* End Order Confirmation */
