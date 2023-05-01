@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1>Cart</h1>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-8">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="img/home.jpg" width=150px height=auto alt="Product Image" class="me-3">
+                                Keyboard
+                            </td>
+                            <td>$19.99</td>
+                            <td>
+                                <div class="input-group input-group-sm">
+                                    <button class="btn btn-outline-secondary" type="button">-</button>
+                                    <input type="text" class="form-control text-center" value="1">
+                                    <button class="btn btn-outline-secondary" type="button">+</button>
+                                </div>
+                            </td>
+                            <td>$19.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-end">
+                    <a href="#" class="btn btn-danger btn-lg mt-5">Clear Cart</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        Summary
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Subtotal: $19.99
+                        </li>
+                        <li class="list-group-item">
+                            Shipping: $5.00
+                        </li>
+                        <li class="list-group-item">
+                            Tax: $2.00
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Total: $26.99</strong>  
+                        </li>
+                    </ul>
+                    <div class="card-footer d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary btn-lg">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
