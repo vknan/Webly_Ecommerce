@@ -28,3 +28,63 @@ body {
     margin-bottom: 0;
 }
 /* End Order Confirmation */
+
+
+/* navbar */
+.navbar {
+    background-color: #f8f9fa; /* set background color */
+    padding: 0.5rem 1rem; /* add some padding */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* add box shadow */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* make brand text bold */
+    font-size: 1.5rem; /* set font size */
+  }
+  
+  .nav-link {
+    color: #6c757d; /* set link color */
+  }
+  
+  .nav-link:hover {
+    color: #000; /* change link color on hover */
+  }
+  
+  .form-control {
+    border-radius: 0.25rem; /* add border radius to search bar */
+  }
+  
+  .btn-outline-success {
+    color: #28a745; /* set button text color */
+    border-color: #28a745; /* set button border color */
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff; /* change button text color on hover */
+    background-color: #28a745; /* change button background color on hover */
+    border-color: #28a745; /* change button border color on hover */
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color: #fff; /* set background color for collapsed menu */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* add box shadow */
+    }
+  }
+
+  /* End navbar */
+
+/* Footer  */
+  .footer a {
+    text-decoration: none;
+    
+  }
+  
+  .list-unstyled li a{
+    color: #fff;
+  }
+
+  footer.footer{
+    background-color: #003366;
+     color: #fff;
+  }
